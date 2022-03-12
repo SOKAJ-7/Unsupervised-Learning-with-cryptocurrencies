@@ -1,1 +1,4 @@
 # Unsupervised-Learning-with-cryptocurrencies
+
+## Project Summary
+This project utilizes sklearn, hvplot, and plotly to create an unsupervised learning model to classify a dataset of different cryptocurrencies based on their algorithm, Prooftype, number of coins mined, and total coin supply. These variables were scaled and reduced to three components using pricipal component analysis and clustered into four groups using K-means clustering. The result was the cryptocurrencies of the dataset being classified into four groups: 0, 1, 2, and 3. The class, principal component values, and coin names were appended to the original dataframe used for clustering and a 3D scatter plot was created to visualize and label each cluster. Lastly, a dataframe was created and visualized as a scatter plot to determine the Total Coin Supply to Total Coins Mined relationship for each coin, grouped by class. 
